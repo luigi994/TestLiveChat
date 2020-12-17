@@ -27,8 +27,15 @@
     };
   </script>
   <body>
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#chatFrame").load("https://github.com/luigi994/TestLiveChat/blob/main/invitation.html"); 
+    });
+    </script> 
+    
     <div style ="bottom: 100px; right: 100px; position: absolute;" >
-      <iframe id="chatFrame" src= "https://github.com/luigi994/TestLiveChat/blob/main/invitation.html"></iframe>
+      <iframe id="chatFrame"></iframe>
     </div>
   </body>
   
